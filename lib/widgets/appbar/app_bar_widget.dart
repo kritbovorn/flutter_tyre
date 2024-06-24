@@ -1,12 +1,15 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 part of flutter_tyre;
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
+  final Color? backgroundColor;
   final String title;
   final Widget? leading;
   final Widget? action;
   final Widget? actionLeading;
   const AppBarWidget({
     Key? key,
+    this.backgroundColor,
     required this.title,
     this.leading,
     this.action,
@@ -25,7 +28,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
       centerTitle: true,
-      backgroundColor: Colors.white,
+      backgroundColor: backgroundColor ?? Colors.white,
       //
       leading: Container(
         padding: const EdgeInsets.only(left: 10),

@@ -12,5 +12,10 @@ import 'package:flutter/material.dart';
 part 'widgets/text/text_title.dart';
 part 'widgets/text/text_body.dart';
 part 'widgets/appbar/app_bar_widget.dart';
+part 'widgets/category_widget/category_horizontal_widget.dart';
+part 'widgets/category_widget/category_vertical_widget.dart';
+part 'widgets/cards/card_medium_image_two_title_one_button_widget.dart';
+part 'widgets/cards/card_small_image_one_title_widget.dart';
+part 'widgets/lists/list_image_two_title_one_button_widget.dart';
 
 
