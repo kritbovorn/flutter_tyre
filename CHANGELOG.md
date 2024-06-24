@@ -1,6 +1,11 @@
 
+## 0.0.7  
 
-
+* Add CardMediumImageTwoTitleOneButtonWidge()  
+* Add CardSmallImageOneTitleWidget()  
+* Add CategoryHorizontalWidget()  
+* Add CategoryVerticalWidget()  
+* Add ListImageTwoTitleOneButtonWidget()
 
 ## 0.0.6  
 
