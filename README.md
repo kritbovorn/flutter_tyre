@@ -26,12 +26,7 @@ Use these Widgets to make app.
 ## Usage
 
 ```dart
-    Column(
-        children: [
-            InkwellText(text: "Somethings", onHover: (value) {}, onTap: () {}),
-            InkwellText(text: "Somethings", onHover: (value) {}, onTap: () {}),
-        ],
-    );
+    
 ```
 
 ## Additional information
